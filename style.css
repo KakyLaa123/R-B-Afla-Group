@@ -1,0 +1,185 @@
+body{
+    font-family: "Bebas", sans-serif;
+}
+
+.license-buy{
+    max-width: 360px;
+    min-width: 320px;
+    padding: 10px;
+    border: 10px solid #EAEAEA;
+    background-color: #F8F8F8;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+.license{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 10px;
+}
+
+.radio-name, .total-price{
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 18px;
+    font-stretch: extra-condensed;
+    color: #7B7B7B;
+}
+
+.price{
+    font-size: 13px;
+    color: #A1A1A1;
+}
+
+.number-of-licenses{
+    display: flex;
+    padding: 20px 80px;
+    margin-top: 5px;
+    font-size: 12px;
+    align-items: center;
+    border-top: 2px solid #EAEAEA;
+    border-bottom: 1px solid #EAEAEA;
+}
+
+.total-price{
+    padding: 20px 0 10px 0;
+    text-align: center;
+}
+
+.buy-now{
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.buy-now input{
+    color: white;
+    background-color: #33A845;
+    border: 0;
+    border-radius: 22px;
+    padding: 15px 80px;
+    text-transform: uppercase;
+}
+
+.selected-plan{
+    padding-bottom: 30px;
+    text-align: center;
+    color: #5EA0BA;
+}
+
+#total, .dollar{
+    color: #5EA0BA;
+}
+
+#total{
+    position: relative;
+}
+
+#total::after{
+    content: "US";
+    color: #5EA0BA;
+    font-size: 12px;
+    position:absolute;
+    top: 2px;
+}
+
+.selected-plan-price{
+    border: 1px solid #C4DDE7;
+    background-color: #EBF4F7;
+}
+
+.radio-border{
+    border: 3px solid #EAEAEA;
+    border-radius: 50%;
+    width: 13px;
+    height: 13px;
+    position: relative;
+    margin-right: 15px;
+}
+
+.radio-border-checked{
+    border: 3px solid #34648E;
+    border-radius: 50%;
+    width: 13px;
+    height: 13px;
+    position: relative;
+    margin-right: 15px; 
+}
+
+.radio-check-checked{
+    background-color: #0294BF;
+    position: absolute;
+    top: 2.5px;
+    left: 2.5px;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+}
+
+input[type="radio"]{
+    position: absolute;
+    z-index: -1;
+}
+
+.radio-name{
+    display:flex;
+}
+
+select{
+    border: 1px solid #B4CEF7;
+    border-radius: 2px;
+}
+
+
+
+
+
+
+@font-face {
+    font-family: "BebasRegular";
+    src: url("../Bebas/BebasRegular/BebasRegular.eot");
+    src: url("../Bebas/BebasRegular/BebasRegular.eot?#iefix")format("embedded-opentype"),
+    url("../Bebas/BebasRegular/BebasRegular.woff") format("woff"),
+    url("../Bebas/BebasRegular/BebasRegular.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "BebasBook";
+    src: url("../Bebas/BebasBook/BebasBook.eot");
+    src: url("../Bebas/BebasBook/BebasBook.eot?#iefix")format("embedded-opentype"),
+    url("../Bebas/BebasBook/BebasBook.woff") format("woff"),
+    url("../Bebas/BebasBook/BebasBook.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "BebasBold";
+    src: url("../Bebas/BebasBold/BebasBold.eot");
+    src: url("../Bebas/BebasBold/BebasBold.eot?#iefix")format("embedded-opentype"),
+    url("../Bebas/BebasBold/BebasBold.woff") format("woff"),
+    url("../Bebas/BebasBold/BebasBold.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "BebasLight";
+    src: url("../Bebas/BebasLight/BebasLight.eot");
+    src: url("../Bebas/BebasLight/BebasLight.eot?#iefix")format("embedded-opentype"),
+    url("../Bebas/BebasLight/BebasLight.woff") format("woff"),
+    url("../Bebas/BebasLight/BebasLight.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "BebasThin";
+    src: url("../Bebas/BebasThin/BebasThin.eot");
+    src: url("../Bebas/BebasThin/BebasThin.eot?#iefix")format("embedded-opentype"),
+    url("../Bebas/BebasThin/BebasThin.woff") format("woff"),
+    url("../Bebas/BebasThin/BebasThin.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}

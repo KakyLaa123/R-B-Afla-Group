@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>index</title>
+</head>
+<body>
+    <div class="license-buy">
+        <form action="#" method="get">
+            <label for="first-plan">
+                <div class="license">
+                    <div class="radio-name">
+                        <input type="radio" name="license-plan" id="first-plan" value="13">
+                        <div class="radio-border"><div class="radio-check"></div></div>
+                        <span>license plan #1</span>
+                    </div>
+                    <div class="price">
+                        <span>$13 per license</span>
+                    </div>
+                </div>
+            </label>
+            <label for="second-plan">
+                <div class="license">
+                    <div class="radio-name">
+                        <input type="radio" name="license-plan" id="second-plan" value="22">
+                        <div class="radio-border"><div class="radio-check"></div></div>
+                        <span>license plan #2</span>
+                    </div>
+                    <div class="price">
+                        <span>$22 per license</span>
+                    </div>
+                </div>
+            </label>
+            <label for="third-plan">
+                <div class="license">
+                    <div class="radio-name">
+                        <input type="radio" name="license-plan" id="third-plan" value="34">
+                        <div class="radio-border"><div class="radio-check"></div></div>
+                        <span>license plan #3</span>
+                    </div>
+                    <div class="price">
+                        <span>$34 per license</span>
+                    </div>
+                </div>
+            </label>
+            <div class="number-of-licenses">
+                <span>Number of licenses: </span>
+                <select>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                    <option value="10">10</option>
+                </select>
+            </div>
+            <div class="total-price">
+                <span>total:<span class="dollar">$</span><span id="total">0</span></span>
+            </div>
+            <div class="buy-now">
+                <input type="submit" value="Buy now">
+            </div>
+            <div class="selected-plan">
+                <span>Selected plan: <span id="number-of-plan"></span></span>
+            </div>
+        </form>
+    </div>
+    <script src="script.js" type="text/JavaScript"></script>
+</body>
+</html>
